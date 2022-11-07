@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+ <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+ <link rel="stylesheet" type="text/css" href="../css/style.css">
+ <link rel="stylesheet" type="text/css" href="../fontawesome-free-6.1.1-web/css/all.min.css">
+
+    <title>Rosali | Login </title>
+  </head>
+  <body>
+   <!-- AWAL NAVBAR-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="homepage.html">
+        <img src="../assets/logo.png" alt="" width="70" height="70" class="d-inline-block">
+        Rosal
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Daftar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- AKHIR NAVBAR -->
+ 
+  <!-- AWAL MASUK -->
+<div class="container">
+    <form class="form-container">
+        <h3 class="textJudul mb-5 mt-2">Masuk</h3>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label textForm">E-mail</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan E-mail">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label textForm">Password</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-key"></i></span>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukkan Password">
+        </div>
+        <div style="margin-top: -13px;" class="text-end">
+            <a href="#" class="textForm text-hover">Lupa Password?</a>
+        </div>
+        <div class="d-grid mt-5">
+        <button type="submit" class="btn btn-outline-primary textForm">Masuk</button>
+        </div>
+        <div class="mt-1">
+            <span class="textForm ">Belum Punya Akun? <a href="register.html" class="textForm text-hover">daftar</a></span>
+        </div>
+      </form>
+</div>
+  <!-- AKHIR MASUK -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/popper.min.js"></script>
+
+  </body>
+</html>
